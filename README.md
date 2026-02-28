@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+⏱️ Pomodoro + Todo Uygulaması
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Minimalist ve animasyonlu arayüze sahip, üretkenlik odaklı bir Pomodoro + Todo web uygulaması.
+React ile geliştirilmiş olup veriler localStorage üzerinde saklanır.
 
-## Available Scripts
+🚀 Özellikler
 
-In the project directory, you can run:
+⏱️ 25/5 Dakika Pomodoro Zamanlayıcı
 
-### `npm start`
+25 dakika odaklanma
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5 dakika mola
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Otomatik geçiş sistemi
 
-### `npm test`
+✅ Todo Listesi
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Görev ekleme
 
-### `npm run build`
+Görev tamamlama
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Görev silme
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔔 Ses Bildirimi
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Süre tamamlandığında Web Audio API ile ses efekti
 
-### `npm run eject`
+📊 Günlük İstatistik
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Tamamlanan Pomodoro sayısı
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Günlük üretkenlik takibi
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🎨 Minimalist & Animasyonlu UI
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+CSS animasyonları
 
-## Learn More
+Modern ve sade tasarım
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+💾 Kalıcı Veri Saklama
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+localStorage ile veri kaybı olmadan kullanım
 
-### Code Splitting
+🛠️ Kullanılan Teknolojiler
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+⚛️ React
 
-### Analyzing the Bundle Size
+🎨 CSS3 (Animasyonlar)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🔊 Web Audio API
 
-### Making a Progressive Web App
+💾 localStorage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📂 Proje Yapısı
+src/
+│
+├── components/
+│   ├── Timer.jsx
+│   ├── TodoList.jsx
+│   ├── Stats.jsx
+│
+├── App.jsx
+├── index.js
+└── styles.css
+⚙️ Kurulum
 
-### Advanced Configuration
+Projeyi klonlayın:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+git clone https://github.com/kullaniciadi/focusflow.git
 
-### Deployment
+Klasöre girin:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+cd focusflow
 
-### `npm run build` fails to minify
+Bağımlılıkları yükleyin:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm install
+
+Projeyi başlatın:
+
+npm start
+🎯 Amaç
+
+Bu proje:
+
+React state yönetimini pekiştirmek
+
+localStorage kullanımını öğrenmek
+
+Web Audio API ile ses kontrolünü uygulamak
+
+UI/UX tarafında minimalist tasarım pratiği yapmak
+
+amacıyla geliştirilmiştir.
+
+👨‍💻 Geliştirici
+
+Mehmet Emin Yılmaz
+
+

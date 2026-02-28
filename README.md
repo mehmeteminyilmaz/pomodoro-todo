@@ -41,44 +41,6 @@ Modern ve sade tasarım
 
 localStorage ile veri kaybı olmadan kullanım
 
-🛠️ Kullanılan Teknolojiler
-
-⚛️ React
-
-🎨 CSS3 (Animasyonlar)
-
-🔊 Web Audio API
-
-💾 localStorage
-
-📂 Proje Yapısı
-src/
-│
-├── components/
-│   ├── Timer.jsx
-│   ├── TodoList.jsx
-│   ├── Stats.jsx
-│
-├── App.jsx
-├── index.js
-└── styles.css
-⚙️ Kurulum
-
-Projeyi klonlayın:
-
-git clone https://github.com/kullaniciadi/focusflow.git
-
-Klasöre girin:
-
-cd focusflow
-
-Bağımlılıkları yükleyin:
-
-npm install
-
-Projeyi başlatın:
-
-npm start
 🎯 Amaç
 
 Bu proje:
@@ -93,8 +55,49 @@ UI/UX tarafında minimalist tasarım pratiği yapmak
 
 amacıyla geliştirilmiştir.
 
+
+🛠️ Kullanılan Teknolojiler
+
+⚛️ React
+
+🎨 CSS3 (Animasyonlar)
+
+🔊 Web Audio API
+
+💾 localStorage
+
+📂 Proje Yapısı
+
+src/
+│
+├── components/
+│   ├── Timer.jsx
+│   ├── TodoList.jsx
+│   ├── Stats.jsx
+│
+├── App.jsx
+├── index.js
+└── styles.css
+
+⚙️ Kurulum
+
+Projeyi klonlayın:
+
+git clone https://github.com/kullaniciadi/focusflow.git
+
+Klasöre girin:
+
+cd pomodoro-todo
+
+Bağımlılıkları yükleyin:
+
+npm install
+
+Projeyi başlatın:
+
+npm start
+
 👨‍💻 Geliştirici
 
 Mehmet Emin Yılmaz
-
 
